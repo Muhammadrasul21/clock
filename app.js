@@ -32,3 +32,59 @@ setInterval(() => {
     currentTime()
 }, 1000)
 
+
+
+// {
+//     // 1 masala 
+//     function circleArea(circle) {
+//         return Math.PI * Math.pow(circle.radius, 2);
+//     }
+
+//     const center = new Point(0, 0);
+//     const myCircle = new Circle(center, 5);
+
+//     console.log(circleArea(myCircle));
+// }
+
+
+
+
+
+
+// {
+//     // 2 masala 
+//     function validateCode(code) {
+//         const codeStr = code.toString();
+
+//         return /^[123]/.test(codeStr);
+//     }
+
+//     console.log(validateCode(12345));
+//     console.log(validateCode(23456));
+//     console.log(validateCode(34567));
+//     console.log(validateCode(45678));
+//     console.log(validateCode(0));
+// }
+
+
+
+
+
+// {
+//     // 3 masala 
+//     function distinct(a) {
+//         const seen = new Set();
+
+//         return a.filter(item => {
+//             if (seen.has(item)) {
+//                 return false;
+//             } else {
+//                 seen.add(item);
+//                 return true;
+//             }
+//         });
+//     }
+
+//     console.log(distinct([1, 1, 2]));
+//     console.log(distinct([1, 2, 1, 1, 3, 2]));
+// }
