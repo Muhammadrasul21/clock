@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Styles -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        @font-face {
+            font-family: clock;
+            src: url(./fonts/E1234-G3KXD.ttf);
+        }
+
+        @font-face {
+            font-family: font;
+            src: url(./fonts/ProtestGuerrilla-Regular.ttf);
+        }
+
+        .main {
+            width: 100%;
+            height: 100vh;
+            background-color: #111;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            color: gray;
+        }
+
+        .main p {
+            font-size: 2vw;
+            font-family: font;
+            display: flex;
+            align-items: center;
+        }
+
+        .time {
+            font-size: 10vw;
+            color: green;
+            font-family: clock;
+        }
+    </style>
+</head>
+
+
+
+<!-- Main -->
+
+<body>
+    <div class="main">
+        <p class="day">Wednesday</p>
+        <h1 class="time">00:00:00</h1>
+        <p class="date">11 September. 2024</p>
+    </div>
+
+
+
+    <audio class="audio" src="./sounds/clock sound.mp3" autoplay></audio>
+
+    <!-- Javascript -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
