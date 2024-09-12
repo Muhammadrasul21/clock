@@ -88,3 +88,16 @@ setInterval(() => {
 //     console.log(distinct([1, 1, 2]));
 //     console.log(distinct([1, 2, 1, 1, 3, 2]));
 // }
+
+
+
+
+// {
+//     // 4 masala 
+
+//     function combat(health, damage) {
+
+//         const newHealth = health - damage;
+//         return newHealth < 0 ? 0 : newHealth;
+//     }
+// }
