@@ -101,3 +101,14 @@ setInterval(() => {
 //         return newHealth < 0 ? 0 : newHealth;
 //     }
 // }
+
+
+
+
+// {
+//     // 5 masala 
+//     function findSmallestInt(arr) {
+//         return Math.min(...arr);
+//     }
+
+// }
